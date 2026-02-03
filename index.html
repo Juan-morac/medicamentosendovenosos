@@ -1,0 +1,305 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Preparación de medicamentos – HFBC</title>
+  <style>
+    :root {
+      --blue: #105090;
+      --accent: #c06030;
+      --bg: #f6f7fb;
+      --card: #ffffff;
+      --text: #0f172a;
+      --muted: #475569;
+      --border: rgba(0,0,0,.10);
+    }
+    *{ box-sizing:border-box; }
+    body{ margin:0; font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial; background:var(--bg); color:var(--text); }
+    header{
+      position: sticky; top:0; z-index: 10;
+      background: var(--blue);
+      color:#fff; padding: 12px 14px; border-bottom: 1px solid rgba(255,255,255,.18);
+    }
+    .head-row{ display:flex; align-items:center; gap:12px; }
+    .logo{ width:38px; height:38px; border-radius:10px; background:#fff; padding:4px; }
+    .title{ line-height:1.15; }
+    .title h1{ margin:0; font-size:16px; font-weight:900; letter-spacing:.2px; }
+    .title p{ margin:2px 0 0; font-size:12px; opacity:.95; }
+    main{ max-width: 1050px; margin: 0 auto; padding: 14px; }
+    .search{ margin-top: 10px; display:flex; gap:10px; flex-wrap:wrap; }
+    input{
+      flex: 1 1 380px;
+      padding: 12px 14px; border-radius: 14px; border:1px solid rgba(255,255,255,.35);
+      outline:none; font-size: 15px;
+    }
+    input::placeholder{ color: rgba(15,23,42,.55); }
+    .chips{ display:flex; gap:8px; flex-wrap:wrap; margin: 12px 0 8px; }
+    .chip{
+      border: 1px solid var(--border); background: rgba(255,255,255,.75);
+      padding: 8px 10px; border-radius: 999px; font-size: 12px; font-weight: 800;
+      cursor:pointer; user-select:none;
+    }
+    .chip.active{ background: #fff; border-color: rgba(0,0,0,.18); box-shadow:0 6px 16px rgba(0,0,0,.08); }
+    .actions{ display:flex; gap:10px; flex-wrap:wrap; margin: 10px 0 14px; }
+    .btn{
+      display:inline-flex; align-items:center; gap:8px;
+      padding: 10px 12px; border-radius: 14px; border:1px solid var(--border);
+      background: #fff; font-weight: 900; cursor:pointer; text-decoration:none; color:var(--text);
+      box-shadow:0 6px 16px rgba(0,0,0,.06);
+    }
+    .btn small{ font-weight:700; color:var(--muted); }
+    .grid{ display:grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap:12px; }
+    .card{
+      background: var(--card); border:1px solid rgba(0,0,0,.06);
+      border-radius: 18px; padding: 14px; box-shadow:0 10px 22px rgba(0,0,0,.07);
+    }
+    .top{ display:flex; justify-content:space-between; align-items:flex-start; gap:10px; }
+    .name{ margin:0; font-size: 16px; font-weight: 950; }
+    .meta{ margin:4px 0 0; color: var(--muted); font-size: 12px; }
+    .pill{ display:inline-flex; align-items:center; gap:6px; padding:6px 10px; border-radius:999px; font-size:12px; font-weight: 950;
+      border:1px solid rgba(0,0,0,.10); background: rgba(255,255,255,.8);
+    }
+    .pill.cat{ background: rgba(255,255,255,.55); }
+    .pill.rAlto{ background:#ffe1e1; }
+    .pill.rModerado{ background:#fff3d6; }
+    .pill.rBajo{ background:#e8f7ee; }
+    .pill.ves{ background:#ffe1e1; }
+    .hr{ height:1px; background: rgba(0,0,0,.08); margin:10px 0; }
+    .sec{ margin-top:8px; }
+    .label{ margin:0 0 4px; font-size:12px; font-weight: 950; color:#111827; }
+    .val{ margin:0; font-size: 13px; color:#111827; white-space: pre-wrap; }
+    .note{
+      margin-top:10px; padding: 10px 12px; border-radius: 14px;
+      background: rgba(192,96,48,.10); border:1px solid rgba(192,96,48,.20);
+      font-size: 13px;
+    }
+    .small{ font-size:12px; color:var(--muted); margin: 0 0 10px; }
+    .empty{ padding: 18px; border-radius: 18px; background: rgba(255,255,255,.65); border:1px dashed rgba(0,0,0,.18); color: var(--muted); }
+    .footer{ margin: 14px 0 20px; font-size:12px; color: var(--muted); }
+    .kbd{ font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+      background: rgba(0,0,0,.06); padding: 2px 6px; border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="head-row">
+      <img class="logo" src="assets/logo.png" alt="Logo HFBC"/>
+      <div class="title">
+        <h1>Preparación de medicamentos EV – HFBC</h1>
+        <p>Buscador global (antimicrobianos, vasoactivas, electrolitos, sedoanalgesia/BNM). Descarga tablas en PDF.</p>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="search">
+      <input id="q" placeholder="Buscar (ej: nora, vanco, mero, prop, fenta…)" autocomplete="off" autofocus />
+    </div>
+
+    <div class="chips" id="chips"></div>
+
+    <div class="actions">
+      <a class="btn" href="pdf/antimicrobianos.pdf" download>📄 Antimicrobianos <small>(PDF)</small></a>
+      <a class="btn" href="pdf/vasoactivas.pdf" download>📄 Vasoactivas <small>(PDF)</small></a>
+      <a class="btn" href="pdf/alto_riesgo.pdf" download>📄 Alto riesgo <small>(PDF)</small></a>
+      <a class="btn" href="pdf/electrolitos.pdf" download>📄 Electrolitos <small>(PDF)</small></a>
+      <a class="btn" href="pdf/sueros_hiper_hipo.pdf" download>📄 Sueros hiper/hipo <small>(PDF)</small></a>
+      <a class="btn" href="pdf/sedoanalgesia_bnm.pdf" download>📄 Sedoanalgesia/BNM <small>(PDF)</small></a>
+    </div>
+
+    <p class="small" id="count"></p>
+    <div class="grid" id="grid"></div>
+
+    <div class="footer">
+      Tip rápido: prueba con <span class="kbd">nora</span>, <span class="kbd">fenta</span>, <span class="kbd">prop</span>, <span class="kbd">mero</span>.
+      <br/>
+      Nota: la recomendación de <b>dispositivo</b> se muestra <b>solo</b> en antimicrobianos; en vasoactivas y sedoanalgesia se muestra solo <b>vía periférica</b> o <b>CVC</b>.
+    </div>
+  </main>
+
+<script>
+let MEDS = [];
+let activeFilter = "Todos";
+
+const FILTERS = ["Todos","Antimicrobianos","Vasoactivas","Electrolitos","Alto riesgo","Sedoanalgesia/BNM"];
+
+function normalize(s){
+  return (s||"")
+    .toString()
+    .normalize("NFD").replace(/[\u0300-\u036f]/g,"")
+    .toLowerCase();
+}
+
+function deviceForAntimicrobial(riesgo){
+  if (riesgo === "Alto") return "Dispositivo sugerido: considerar catéter Midline largo.";
+  if (riesgo === "Moderado") return "Dispositivo sugerido: considerar Midline largo o corto; evaluar días de tratamiento.";
+  if (riesgo === "Bajo") return "Dispositivo sugerido: considerar VVP corto o periférico con sistema integrado (Nexiva); evaluar duración.";
+  return "";
+}
+
+function viaForNonAntimicrob(item){
+  const dl = normalize(item.dano_local || "");
+  if (dl.includes("vesicante")) return "Vía: CVC (vesicante).";
+  return "Vía: periférica o CVC.";
+}
+
+function pillRisk(riesgo){
+  if (!riesgo) return "";
+  const cls = (riesgo==="Alto")? "rAlto" : (riesgo==="Moderado")? "rModerado" : "rBajo";
+  return `<span class="pill ${cls}">Riesgo: ${riesgo}</span>`;
+}
+
+function renderChips(){
+  const el = document.getElementById("chips");
+  el.innerHTML = FILTERS.map(f => `
+    <div class="chip ${f===activeFilter ? "active":""}" onclick="setFilter('${f.replace(/'/g,"&#39;")}')">${f}</div>
+  `).join("");
+}
+
+function setFilter(f){
+  activeFilter = f;
+  renderChips();
+  render();
+}
+
+function field(label, value){
+  if (!value) return "";
+  return `
+    <div class="sec">
+      <p class="label">${label}</p>
+      <p class="val">${escapeHtml(value)}</p>
+    </div>
+  `;
+}
+
+function escapeHtml(text){
+  return (text ?? "").toString()
+    .replaceAll("&","&amp;")
+    .replaceAll("<","&lt;")
+    .replaceAll(">","&gt;")
+    .replaceAll('"',"&quot;")
+    .replaceAll("'","&#039;");
+}
+
+function matchesQuery(item, q){
+  if (!q) return true;
+  const hay = [
+    item.name,
+    (item.aliases||[]).join(" "),
+    item.category,
+    item.reconstitucion, item.dilucion, item.administracion, item.estabilidad, item.ph, item.osmolaridad, item.riesgo,
+    item.sueros, item.preparacion, item.dosis_indicacion, item.dosis_administracion, item.dano_local,
+    item.cuidados,
+    item.solventes, item.volumen_dilucion, item.tipo_administracion, item.reacciones_adversas, item.observaciones, item.dosis
+  ].map(normalize).join(" ");
+  return hay.includes(q);
+}
+
+function render(){
+  const q = normalize(document.getElementById("q").value.trim());
+  const grid = document.getElementById("grid");
+
+  let items = MEDS.slice();
+
+  if (activeFilter !== "Todos"){
+    items = items.filter(x => x.category === activeFilter);
+  }
+
+  if (q){
+    items = items.filter(x => matchesQuery(x, q));
+  }
+
+  document.getElementById("count").textContent = `${items.length} resultado(s) · Filtro: ${activeFilter}`;
+
+  if (!items.length){
+    grid.innerHTML = `<div class="empty">No encontré coincidencias. Prueba con abreviaciones tipo <b>nora</b>, <b>prop</b>, <b>fenta</b>.</div>`;
+    return;
+  }
+
+  grid.innerHTML = items.map(item => {
+    const catPill = `<span class="pill cat">${item.category}</span>`;
+    let rightPill = "";
+
+    if (item.category === "Antimicrobianos"){
+      rightPill = pillRisk(item.riesgo);
+    } else if (item.category === "Vasoactivas" || item.category === "Alto riesgo"){
+      const dl = normalize(item.dano_local || "");
+      rightPill = dl.includes("vesicante") ? `<span class="pill ves">Vesicante</span>` : `<span class="pill">Vía: periférica/CVC</span>`;
+    } else {
+      rightPill = `<span class="pill">Vía: periférica/CVC</span>`;
+    }
+
+    let body = "";
+    if (item.category === "Antimicrobianos"){
+      body += field("Reconstitución", item.reconstitucion);
+      body += field("Dilución (conc. máx)", item.dilucion);
+      body += field("Velocidad / tiempo de infusión", item.administracion);
+      body += field("Estabilidad físico-química", item.estabilidad);
+      body += field("pH · Osmolaridad", `pH: ${item.ph}\nOsm: ${item.osmolaridad}`);
+      body += `<div class="note">${escapeHtml(deviceForAntimicrobial(item.riesgo))}</div>`;
+    } else if (item.category === "Vasoactivas"){
+      body += field("Sueros compatibles", item.sueros);
+      body += field("Preparación", item.preparacion);
+      body += field("Dosis de indicación", item.dosis_indicacion);
+      body += field("Dosis de administración", item.dosis_administracion);
+      body += field("Estabilidad", item.estabilidad);
+      body += field("pH · Osmolaridad", `pH: ${item.ph}\nOsm: ${item.osmolaridad}`);
+      body += field("Daño local", item.dano_local);
+      body += `<div class="note">${escapeHtml(viaForNonAntimicrob(item))}</div>`;
+    } else if (item.category === "Alto riesgo"){
+      body += field("Sueros compatibles", item.sueros);
+      body += field("Preparación", item.preparacion);
+      body += field("Dosis de administración", item.dosis_administracion);
+      body += field("Estabilidad", item.estabilidad);
+      body += field("pH · Osmolaridad", `pH: ${item.ph}\nOsm: ${item.osmolaridad}`);
+      body += field("Daño local", item.dano_local);
+      body += `<div class="note">${escapeHtml(viaForNonAntimicrob(item))}</div>`;
+    } else if (item.category === "Electrolitos"){
+      body += field("Preparación", item.preparacion);
+      body += field("Cuidados de enfermería", item.cuidados);
+      if (normalize(item.name).includes("cloruro de sodio")){
+        body += `<div class="note"><b>Preparación de sueros hipertónicos e hipotónicos:</b><br/>${escapeHtml(item.preparacion)}<br/><br/>${escapeHtml(item.cuidados)}</div>`;
+      }
+    } else if (item.category === "Sedoanalgesia/BNM"){
+      body += field("Solventes", item.solventes);
+      body += field("Volumen de dilución", item.volumen_dilucion);
+      body += field("Estabilidad (solución diluida)", item.estabilidad);
+      body += field("Tipo de administración", item.tipo_administracion);
+      body += field("RAM asociadas a la administración", item.reacciones_adversas);
+      body += field("Observaciones", item.observaciones);
+      body += field("Dosis", item.dosis);
+      body += `<div class="note">Vía: periférica o CVC.</div>`;
+    }
+
+    const aliases = (item.aliases && item.aliases.length) ? `Alias: ${item.aliases.join(", ")}` : "";
+
+    return `
+      <div class="card">
+        <div class="top">
+          <div>
+            <p class="name">${escapeHtml(item.name)}</p>
+            <p class="meta">${catPill}${aliases ? " · " + escapeHtml(aliases) : ""}</p>
+          </div>
+          <div>${rightPill}</div>
+        </div>
+        <div class="hr"></div>
+        ${body}
+      </div>
+    `;
+  }).join("");
+}
+
+async function init(){
+  const res = await fetch("data/meds.json");
+  MEDS = await res.json();
+  renderChips();
+  render();
+}
+
+document.getElementById("q").addEventListener("input", render);
+init();
+</script>
+</body>
+</html>

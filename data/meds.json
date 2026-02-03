@@ -1,0 +1,939 @@
+[
+  {
+    "category": "Antimicrobianos",
+    "name": "Aciclovir 250 mg",
+    "aliases": [
+      "Aciclovir 500 mg"
+    ],
+    "reconstitucion": "Solvente incluido en envase o\nAciclovir 250 mg1,4:10 mL\nAciclovir 500 mg1.4 :20 mL \n\nSF0.9% o SG5%",
+    "dilucion": "100 mL SF0.9% o SG5%\nNo exceder 5 mg/mL1",
+    "administracion": "1 h1,4",
+    "estabilidad": "TA: 24 h7",
+    "ph": "10,5-11,61",
+    "osmolaridad": "316 – 3191,5",
+    "riesgo": "Alto"
+  },
+  {
+    "category": "Antimicrobianos",
+    "name": "Amikacina 100 mg",
+    "aliases": [
+      "Amikacina 500 mg"
+    ],
+    "reconstitucion": "No requiere solvente",
+    "dilucion": "100 - 200 mL4\nSF0.9% – SG 5%",
+    "administracion": "30-60 min4",
+    "estabilidad": "TA: 24 h7",
+    "ph": "3,5-5,55,6",
+    "osmolaridad": "3495,6",
+    "riesgo": "Moderado"
+  },
+  {
+    "category": "Antimicrobianos",
+    "name": "Ampicilina",
+    "aliases": [
+      "500 mg"
+    ],
+    "reconstitucion": "Agua para inyectable4\n5 mL para 500 mg",
+    "dilucion": "50 mL - 100 mL SF0.9%4\nNo exceder 30 mg/mL",
+    "administracion": "Bolo: 10- 15 min4\nIV: 30-60 min4\nNo exceder 100 mg/min4",
+    "estabilidad": "TA: 8 h8",
+    "ph": "8-10 2,5",
+    "osmolaridad": "372- 6205,9",
+    "riesgo": "Alto"
+  },
+  {
+    "category": "Antimicrobianos",
+    "name": "Ampicilina/sulbactam",
+    "aliases": [
+      "1000 mg / 500 mg"
+    ],
+    "reconstitucion": "Agua para inyectable",
+    "dilucion": "50 mL - 100 mL\n SF0.9%4",
+    "administracion": "Bolo: 10- 15 min4\nInfusión IV: 15-30 min4",
+    "estabilidad": "RE: 24 h7",
+    "ph": "8-106,9",
+    "osmolaridad": "4006,9",
+    "riesgo": "Alto"
+  },
+  {
+    "category": "Antimicrobianos",
+    "name": "Anfotericina b DESOXICOLATO",
+    "aliases": [
+      "50 mg (convencional)"
+    ],
+    "reconstitucion": "10 mL \nAgua para inyectable4",
+    "dilucion": "500 mL SG5%4\nVía Periférica: 0,1 mg/mL\nVía Central: 0,25-0,5 mg/mL",
+    "administracion": "2-6 h3",
+    "estabilidad": "Utilizar una vez diluido y proteger de la luz.",
+    "ph": "5,0-6,06",
+    "osmolaridad": "2566",
+    "riesgo": "Bajo"
+  },
+  {
+    "category": "Antimicrobianos",
+    "name": "Anfotericina b",
+    "aliases": [
+      "50 mg LIPOSOMAL"
+    ],
+    "reconstitucion": "12 mL Agua para inyectable13\n(4mg/mL)",
+    "dilucion": "25- 250 mL SG5%13\n(0,2 – 2 mg/mL)",
+    "administracion": "30-60 min13",
+    "estabilidad": "No disponible",
+    "ph": "No disponible",
+    "osmolaridad": "2806",
+    "riesgo": "Bajo"
+  },
+  {
+    "category": "Antimicrobianos",
+    "name": "Anidulafungina",
+    "aliases": [
+      "100 mg"
+    ],
+    "reconstitucion": "30 mL Agua para inyectable4,10",
+    "dilucion": "100 mL SG5% o SF 0.9%4,10\nNo exceder 0,77 mg/mL",
+    "administracion": "90 min, \nno exceder \n1,1 mg/min4,10",
+    "estabilidad": "RE: 24 h",
+    "ph": "3,5-5,52",
+    "osmolaridad": "No disponible",
+    "riesgo": "Bajo"
+  },
+  {
+    "category": "Antimicrobianos",
+    "name": "Caspofungina 70 mg",
+    "aliases": [
+      "Caspofungina 50 mg"
+    ],
+    "reconstitucion": "10,5 mL Agua para inyectable o SF0.9%4",
+    "dilucion": "250 mL SF0.9%4",
+    "administracion": "Infusión IV prolongada durante 60 min10",
+    "estabilidad": "Reconstitución\nTA: 1 h a 4,10\nDiluido: 48 h entre 2-8 °C4,10",
+    "ph": "6,66,9",
+    "osmolaridad": "309",
+    "riesgo": "Bajo"
+  },
+  {
+    "category": "Antimicrobianos",
+    "name": "Cefazolina",
+    "aliases": [
+      "1 gr"
+    ],
+    "reconstitucion": "2,5 mL\n Agua para inyectables4,10",
+    "dilucion": "IV Directo: 5 mL SF0.9% SG5%4,10\n\n50-100 mL SF0.9%, SG5%4,10",
+    "administracion": "IV Directo: 5 min4,10,11\n30-60 min11",
+    "estabilidad": "TA: 24 h4",
+    "ph": "4,5-79",
+    "osmolaridad": "317-3519",
+    "riesgo": "Bajo"
+  },
+  {
+    "category": "Antimicrobianos",
+    "name": "Cefepime",
+    "aliases": [
+      "1 g"
+    ],
+    "reconstitucion": "10 mL \nAgua para inyectables2",
+    "dilucion": "50-100 mL \nSF0.9%, SG5%4",
+    "administracion": "IV: 30 min10",
+    "estabilidad": "TA: 12 h 13\nRE: 24 h13",
+    "ph": "4-66,9",
+    "osmolaridad": "3079",
+    "riesgo": "Bajo"
+  },
+  {
+    "category": "Antimicrobianos",
+    "name": "Cefotaxima",
+    "aliases": [
+      "1g"
+    ],
+    "reconstitucion": "4 mL \nAgua para inyectables12",
+    "dilucion": "50 mL– 100 mL4\nSF0.9%, SG5%",
+    "administracion": "IV:15-60 min10,12",
+    "estabilidad": "TA: 24 h10 \nRE.: 7-10 días10",
+    "ph": "5-7,59,10",
+    "osmolaridad": "344-3579",
+    "riesgo": "Bajo"
+  },
+  {
+    "category": "Antimicrobianos",
+    "name": "Ceftazidima",
+    "aliases": [
+      "1 g"
+    ],
+    "reconstitucion": "10 mL \nAgua para inyectables12",
+    "dilucion": "25 -100 mL 12\nSF0.9%, SG5%",
+    "administracion": "IV :30-60 min13",
+    "estabilidad": "TA: 24 h\nRE: 7 días11",
+    "ph": "5 -89",
+    "osmolaridad": "240-3309",
+    "riesgo": "Bajo"
+  },
+  {
+    "category": "Antimicrobianos",
+    "name": "Ceftazidima/Avibactam 2 g /0.5 g",
+    "aliases": [],
+    "reconstitucion": "10 mL\n Agua para inyectables13,18",
+    "dilucion": "50-250 mL \nSF0.9%, SG5%13,18",
+    "administracion": "IV:120 min13,18",
+    "estabilidad": "TA: 30 min13,18",
+    "ph": "6.73",
+    "osmolaridad": "386",
+    "riesgo": "Bajo"
+  },
+  {
+    "category": "Antimicrobianos",
+    "name": "Ceftriaxona",
+    "aliases": [
+      "1g"
+    ],
+    "reconstitucion": "10 mL \nAgua para inyectables4,12",
+    "dilucion": "25-100 mL SF0.9%, SG5%11\n(no exceder los 40mg/mL)",
+    "administracion": "IV: 30 min4,11,12",
+    "estabilidad": "TA: 24 h4",
+    "ph": "6,6-6,79",
+    "osmolaridad": "3509",
+    "riesgo": "Bajo"
+  },
+  {
+    "category": "Antimicrobianos",
+    "name": "Ciprofloxacino",
+    "aliases": [
+      "200 mg"
+    ],
+    "reconstitucion": "No procede",
+    "dilucion": "No procede",
+    "administracion": "IV 200 mg: 60 min\nIV 400 mg: 120 min",
+    "estabilidad": "No disponible",
+    "ph": "3,3-4,66",
+    "osmolaridad": "2856",
+    "riesgo": "Moderado"
+  },
+  {
+    "category": "Antimicrobianos",
+    "name": "Clindamicina",
+    "aliases": [
+      "600 mg"
+    ],
+    "reconstitucion": "No procede",
+    "dilucion": "300 mg - 600 mg en 50 mL\n 900 mg: 50-100 mL\n 1200 mg: 100 mL\nSG5%4",
+    "administracion": "IV:\n300 mg:10 min\n600 mg:20 min\n900 mg: 30 min \n1200 mg: 60 min\n\nNo exceder 30 mg/min4",
+    "estabilidad": "TA: 24 h",
+    "ph": "6,3\n (5,5 - 7,0)9",
+    "osmolaridad": "2949",
+    "riesgo": "Bajo"
+  },
+  {
+    "category": "Antimicrobianos",
+    "name": "Cloxacilina",
+    "aliases": [
+      "500 mg"
+    ],
+    "reconstitucion": "10 mL\n Agua para inyectables13",
+    "dilucion": "50-100 mL \nSG5%, SF0.9%11,13",
+    "administracion": "Bolo durante 3-5 min\n IV: 30-60 min3,10,13",
+    "estabilidad": "Administrar\nInmediatamente17",
+    "ph": "8-105",
+    "osmolaridad": "3685",
+    "riesgo": "Moderado"
+  },
+  {
+    "category": "Antimicrobianos",
+    "name": "COLISTIN",
+    "aliases": [
+      "Colistimetato de sodio",
+      "240 mg = 100 mg Colistin",
+      "3 millones UI de colistina base"
+    ],
+    "reconstitucion": "2 mL \nAgua para inyectables17",
+    "dilucion": "100 mL\nSF0.9%, SG5%10,17",
+    "administracion": "IV: 30 min - 1 hora10",
+    "estabilidad": "Administrar\nInmediatamente17",
+    "ph": "6,5-8,514",
+    "osmolaridad": "294-310",
+    "riesgo": "Bajo"
+  },
+  {
+    "category": "Antimicrobianos",
+    "name": "Daptomicina",
+    "aliases": [
+      "500 mg"
+    ],
+    "reconstitucion": "10 mL \nSF 0.9%13",
+    "dilucion": "50 mL\n SF0.9%13",
+    "administracion": "IV: 30 min.13",
+    "estabilidad": "TA: 12 h13\nRef.: 24 h13",
+    "ph": "4-55,6",
+    "osmolaridad": "289-3105,6",
+    "riesgo": "Moderado"
+  },
+  {
+    "category": "Antimicrobianos",
+    "name": "Eritromicina",
+    "aliases": [
+      "1g lactobionato"
+    ],
+    "reconstitucion": "20 mL Agua para inyectables13",
+    "dilucion": "200 -1000 mL SF0.9%13\n\n(1-5 mg/mL)",
+    "administracion": "IV: 20-60 min13",
+    "estabilidad": "TA: 8 h13\nRef.: 24 h13",
+    "ph": "7 (6,5-7,7)5",
+    "osmolaridad": "2915",
+    "riesgo": "Bajo"
+  },
+  {
+    "category": "Antimicrobianos",
+    "name": "Ertapenem",
+    "aliases": [
+      "1 gr"
+    ],
+    "reconstitucion": "10 mL Agua para inyectables14",
+    "dilucion": "50 mL SF0.9%14\n(20 mg/mL)",
+    "administracion": "IV: 30 min14",
+    "estabilidad": "TA: 6 h\nRE.: 24 h14",
+    "ph": "7,514",
+    "osmolaridad": "419",
+    "riesgo": "Bajo"
+  },
+  {
+    "category": "Antimicrobianos",
+    "name": "Fluconazol",
+    "aliases": [
+      "400 mg/200 mL"
+    ],
+    "reconstitucion": "No procede",
+    "dilucion": "No procede",
+    "administracion": "IV: 120 min4, 13",
+    "estabilidad": "Uso inmediato",
+    "ph": "4-8 9",
+    "osmolaridad": "3159",
+    "riesgo": "Moderado"
+  },
+  {
+    "category": "Antimicrobianos",
+    "name": "Ganciclovir",
+    "aliases": [
+      "500 mg"
+    ],
+    "reconstitucion": "10 mL\nAgua para inyectables12.",
+    "dilucion": "100 - 250 mL\n SF0.9%, SG 5%.\nNo exceder 10 mg/mL",
+    "administracion": "IV: mínimo en 60 min",
+    "estabilidad": "RE: 7 días\n 1-10 mg/mL en \nSF 0,9 % o SG 5 %",
+    "ph": "112,9",
+    "osmolaridad": "3209",
+    "riesgo": "Alto"
+  },
+  {
+    "category": "Antimicrobianos",
+    "name": "Gentamicina",
+    "aliases": [
+      "80 mg"
+    ],
+    "reconstitucion": "No procede",
+    "dilucion": "50-200 mL SF0.9%\nSG5%\nNo exceder 1 mg/mL14",
+    "administracion": "IV: 30-60 min14",
+    "estabilidad": "TA: 24 h14",
+    "ph": "3-55,6,14",
+    "osmolaridad": "280-290 5,9",
+    "riesgo": "Moderado"
+  },
+  {
+    "category": "Antimicrobianos",
+    "name": "Imipenem cilastatina 500 mg",
+    "aliases": [],
+    "reconstitucion": "10 mL \nSF 0.9%, SG5%13",
+    "dilucion": "500 mg en 100 mL 0.9% SG5%\n(5 mg/mL)15",
+    "administracion": "IV: 4 h15",
+    "estabilidad": "TA:4 h SG5%15\nTA:10 h SF0.9%15",
+    "ph": "6,5-8,515",
+    "osmolaridad": "3682",
+    "riesgo": "Moderado"
+  },
+  {
+    "category": "Antimicrobianos",
+    "name": "Isoniazida",
+    "aliases": [
+      "300 mg"
+    ],
+    "reconstitucion": "5 mL \nAgua para inyectable",
+    "dilucion": "20-50 mL SF0.9%, SG5%",
+    "administracion": "Bolo: 10-15 min\nIV: 60 min",
+    "estabilidad": "No disponible",
+    "ph": "No disponible",
+    "osmolaridad": "No \ndisponible",
+    "riesgo": "Riesgo alto"
+  },
+  {
+    "category": "Antimicrobianos",
+    "name": "Levofloxacino",
+    "aliases": [
+      "500 mg"
+    ],
+    "reconstitucion": "No procede",
+    "dilucion": "No procede",
+    "administracion": "IV 500 mg: 60 min4 \nIV 750 mg: 90 min4",
+    "estabilidad": "Uso inmediato",
+    "ph": "3,8-5,89",
+    "osmolaridad": "2509",
+    "riesgo": "Bajo"
+  },
+  {
+    "category": "Antimicrobianos",
+    "name": "Linezolid",
+    "aliases": [
+      "600 mg/300 mL"
+    ],
+    "reconstitucion": "No procede",
+    "dilucion": "No procede",
+    "administracion": "IV: 30-120 min4",
+    "estabilidad": "Uso inmediato",
+    "ph": "4,89",
+    "osmolaridad": "2909",
+    "riesgo": "Moderado"
+  },
+  {
+    "category": "Antimicrobianos",
+    "name": "Metronidazol",
+    "aliases": [
+      "500 mg/100 mL"
+    ],
+    "reconstitucion": "No procede",
+    "dilucion": "No procede",
+    "administracion": "IV: 30-60 min3",
+    "estabilidad": "Uso inmediato",
+    "ph": "5-7,09",
+    "osmolaridad": "3109",
+    "riesgo": "Moderado"
+  },
+  {
+    "category": "Antimicrobianos",
+    "name": "Meropenem",
+    "aliases": [
+      "500 mg,",
+      "1000 mg"
+    ],
+    "reconstitucion": "10-20 mL\nAgua para inyectables12",
+    "dilucion": "500 mg en 100 mL9 SF 0.9%9\n1 g en 200 mL SF 0.9%9\n(5 -50 mg/mL)",
+    "administracion": "IV: 15-30 min SG5%\nIV: 1-3 h SF 0.9%",
+    "estabilidad": "Inmediatamente SG5%\n1-3 h en SF 0.9%*",
+    "ph": "7,3-8,39",
+    "osmolaridad": "3009",
+    "riesgo": "Bajo"
+  },
+  {
+    "category": "Antimicrobianos",
+    "name": "Penicilina sódica",
+    "aliases": [
+      "1 millón y",
+      "2 millones UI"
+    ],
+    "reconstitucion": "5 mL\n Agua para inyectables13",
+    "dilucion": "50-1000 mL SF0.9%13\n(100 millón UI/mL)",
+    "administracion": "IV directa: 5 min\nIV:15-30 min13",
+    "estabilidad": "TA: 24 h13",
+    "ph": "6-8,5",
+    "osmolaridad": "420",
+    "riesgo": "Moderado"
+  },
+  {
+    "category": "Antimicrobianos",
+    "name": "Piperacilina-tazobactam",
+    "aliases": [
+      "4.5 g"
+    ],
+    "reconstitucion": "20 mL\nSF 0.9%\nAgua para inyectables16",
+    "dilucion": "50-100 mL\nSG 5%16",
+    "administracion": "4 h16",
+    "estabilidad": "TA: 12 h16",
+    "ph": "5,1-5,4",
+    "osmolaridad": "445",
+    "riesgo": "Moderado"
+  },
+  {
+    "category": "Antimicrobianos",
+    "name": "Rifampicina",
+    "aliases": [
+      "600 mg"
+    ],
+    "reconstitucion": "10 mL\n Agua para inyectables",
+    "dilucion": "100 mL SF0.9%, SG5%\n500 mL SF0.9%, SG5% (VVP)\nNo exceda 6 mg/mL3",
+    "administracion": "CVC: 30 min \nVVP: 2-3 h 3",
+    "estabilidad": "TA:6 h SF 0.9%\nTA: 8 h SG5%",
+    "ph": "No disponible",
+    "osmolaridad": "No disponible",
+    "riesgo": "Riesgo alto"
+  },
+  {
+    "category": "Antimicrobianos",
+    "name": "Sulfametoxazol-Trimetoprim",
+    "aliases": [
+      "400/80 MG",
+      "AM (5 ML)"
+    ],
+    "reconstitucion": "No procede",
+    "dilucion": "SF0.9% SG5%16\n1 AM (5ML): 125 mL\n2 AM (10 ML): 250 mL\n3 AM (15ML):500 mL",
+    "administracion": "IV: 30-90 min16",
+    "estabilidad": "TA: 6 h 16",
+    "ph": "10",
+    "osmolaridad": "541",
+    "riesgo": "Alto"
+  },
+  {
+    "category": "Antimicrobianos",
+    "name": "Tigeciclina",
+    "aliases": [
+      "50 mg"
+    ],
+    "reconstitucion": "5.3 mL\nSF 0.9%, SG 5%4",
+    "dilucion": "100 mL \nSF 0.9%, SG 5%4",
+    "administracion": "IV: 30-60 min4",
+    "estabilidad": "TA: 6 h16",
+    "ph": "5,3",
+    "osmolaridad": "270-281",
+    "riesgo": "Bajo"
+  },
+  {
+    "category": "Antimicrobianos",
+    "name": "Vancomicina",
+    "aliases": [
+      "500 mg",
+      "1000 mg"
+    ],
+    "reconstitucion": "20 mL\nAgua para inyectables 16",
+    "dilucion": "1 g en 100-200 mL16\nSF 0.9%, SG 5%\nNo exceder 5 mg/mL\nRestricción volumen: 10mg/mL 16",
+    "administracion": "No exceder 10mg/min4",
+    "estabilidad": "RE: 24 h13",
+    "ph": "2,5-4,5",
+    "osmolaridad": "290",
+    "riesgo": "Alto"
+  },
+  {
+    "category": "Antimicrobianos",
+    "name": "Voriconazol",
+    "aliases": [
+      "200 mg"
+    ],
+    "reconstitucion": "20 mL\nAgua para inyectables4",
+    "dilucion": "100-250 mL\nSF 0.9%, SG5%13",
+    "administracion": "IV: 60-120 min\n (3 mg/kg/h)4",
+    "estabilidad": "RE: 24 h13",
+    "ph": "6-7",
+    "osmolaridad": "No disponible",
+    "riesgo": "Moderado"
+  },
+  {
+    "category": "Vasoactivas",
+    "name": "Adrenalina",
+    "aliases": [
+      "Epinefrina",
+      "Epi"
+    ],
+    "sueros": "S.F 0.9%\nS.G 5%",
+    "preparacion": "10mg/100cc",
+    "dosis_indicacion": "μg/Kg/min",
+    "estabilidad": "24 horas a temperatura ambiente",
+    "dosis_administracion": "0,01-1 μg/Kg/min",
+    "ph": "",
+    "osmolaridad": "",
+    "dano_local": ""
+  },
+  {
+    "category": "Vasoactivas",
+    "name": "Noradrenalina",
+    "aliases": [
+      "Nora",
+      "Norepinefrina",
+      "Norepi",
+      "NE"
+    ],
+    "sueros": "S.F 0.9%\nS.G 5%",
+    "preparacion": "4mg/250cc\n8mg/250cc\n16mg/250cc\n32mg/250cc",
+    "dosis_indicacion": "μg/Kg/min",
+    "estabilidad": "24 horas a temperatura ambiente",
+    "dosis_administracion": "0,01-2 μg/Kg/min",
+    "ph": "3,0–6,5",
+    "osmolaridad": "",
+    "dano_local": ""
+  },
+  {
+    "category": "Vasoactivas",
+    "name": "Dobutamina",
+    "aliases": [
+      "Dobu"
+    ],
+    "sueros": "S.F 0.9%\nS.G 5%",
+    "preparacion": "500mg/125cc\n500mg/250cc",
+    "dosis_indicacion": "μg/Kg/min",
+    "estabilidad": "24 horas a temperatura ambiente",
+    "dosis_administracion": "0,5-20 μg/Kg/min",
+    "ph": "3,5",
+    "osmolaridad": "280",
+    "dano_local": "vesicante"
+  },
+  {
+    "category": "Vasoactivas",
+    "name": "Milrinona",
+    "aliases": [
+      "Milri"
+    ],
+    "sueros": "S.F 0.9%\nS.G 5%",
+    "preparacion": "20mg/125cc\n20mg/250cc",
+    "dosis_indicacion": "μg/Kg/min",
+    "estabilidad": "24 horas a temperatura ambiente",
+    "dosis_administracion": "0,125-0,75 μg/Kg/min",
+    "ph": "3,2",
+    "osmolaridad": "1199",
+    "dano_local": "vesicante"
+  },
+  {
+    "category": "Vasoactivas",
+    "name": "Dopamina",
+    "aliases": [
+      "Dopa"
+    ],
+    "sueros": "S.F 0.9%\nS.G 5%",
+    "preparacion": "400mg/125cc\n400mg/250cc",
+    "dosis_indicacion": "μg/Kg/min",
+    "estabilidad": "24 horas a temperatura ambiente",
+    "dosis_administracion": "2-50 μg/Kg/min",
+    "ph": "3,3",
+    "osmolaridad": "277",
+    "dano_local": "vesicante"
+  },
+  {
+    "category": "Vasoactivas",
+    "name": "Amiodarona",
+    "aliases": [],
+    "sueros": "S.F 0.9%\nS.G 5%",
+    "preparacion": "600mg/250cc\nDepende de indicación medica",
+    "dosis_indicacion": "Ml/hr",
+    "estabilidad": "24 horas a temperatura ambiente",
+    "dosis_administracion": "Bolo: 50, 100, 150mg administrar en 10-15min en mínimo 50cc de suero\nResto de dosis se administra en 24 hrs en infusión continua,",
+    "ph": "4,8",
+    "osmolaridad": "255",
+    "dano_local": "Vesicante"
+  },
+  {
+    "category": "Vasoactivas",
+    "name": "Isoproterenol",
+    "aliases": [],
+    "sueros": "S.F 0.9%\nS.G 5%, hay laboratorios que recomiendan solo en SG 5%",
+    "preparacion": "1mg/250cc",
+    "dosis_indicacion": "μg/min",
+    "estabilidad": "24 horas a temperatura ambiente, es fotosensible",
+    "dosis_administracion": "1-4 μg/min",
+    "ph": "",
+    "osmolaridad": "",
+    "dano_local": ""
+  },
+  {
+    "category": "Vasoactivas",
+    "name": "Nitroglicerina",
+    "aliases": [],
+    "sueros": "S.F 0.9%\nS.G 5%",
+    "preparacion": "50mg/250cc",
+    "dosis_indicacion": "μg/min",
+    "estabilidad": "24 horas a temperatura ambiente, es fotosensible",
+    "dosis_administracion": "10-200         μg/ min",
+    "ph": "",
+    "osmolaridad": "",
+    "dano_local": ""
+  },
+  {
+    "category": "Vasoactivas",
+    "name": "Nitroprusiato de sodio",
+    "aliases": [],
+    "sueros": "S.G 5%",
+    "preparacion": "50mg/250cc",
+    "dosis_indicacion": "μg/Kg/min",
+    "estabilidad": "Seguir recomendación de fabricante",
+    "dosis_administracion": "0,05-8 μg/Kg/min",
+    "ph": "",
+    "osmolaridad": "",
+    "dano_local": ""
+  },
+  {
+    "category": "Vasoactivas",
+    "name": "Labetalol",
+    "aliases": [],
+    "sueros": "S.F 0.9%\nS.G 5%",
+    "preparacion": "1mg/1ml",
+    "dosis_indicacion": "Mg/min",
+    "estabilidad": "24 horas a temperatura ambiente",
+    "dosis_administracion": "0,5-3 mg/min",
+    "ph": "",
+    "osmolaridad": "",
+    "dano_local": ""
+  },
+  {
+    "category": "Alto riesgo",
+    "name": "Heparina",
+    "aliases": [],
+    "sueros": "S.F 0.9%",
+    "preparacion": "25000 UI/250ml",
+    "estabilidad": "24 horas a temperatura ambiente",
+    "dosis_administracion": "Dosis optima es aquella capaz de alargar ttpa entre 1,5 a 2,5 veces los valores normales del pcte",
+    "ph": "",
+    "osmolaridad": "",
+    "dano_local": ""
+  },
+  {
+    "category": "Alto riesgo",
+    "name": "Insulina cristalina",
+    "aliases": [],
+    "sueros": "S.F 0.9%",
+    "preparacion": "100 UI/ 100ml",
+    "estabilidad": "12 horas a temperatura ambiente",
+    "dosis_administracion": "Dosis optima es aquella que logra normalizar valores de glicemia en sangre",
+    "ph": "",
+    "osmolaridad": "",
+    "dano_local": ""
+  },
+  {
+    "category": "Alto riesgo",
+    "name": "Furosemida",
+    "aliases": [],
+    "sueros": "S.F 0.9%\nS.G 5%",
+    "preparacion": "100mg/100ml",
+    "estabilidad": "24 horas a temperatura ambiente",
+    "dosis_administracion": "5-30 mg/hr",
+    "ph": "",
+    "osmolaridad": "",
+    "dano_local": ""
+  },
+  {
+    "category": "Electrolitos",
+    "name": "Cloruro de potasio",
+    "aliases": [],
+    "preparacion": "-En S.F 0.9% o S.G 5%\n-Concentración máxima por VVP 3g por 1000ml de solución (40mEq por 1000ml) a una velocidad de infusión que no supere 0,5g hora por BIC.\n-Concentración máxima por CVC 3g Por 100ml de solución (4040mEq por 1000ml) a una velocidad de infusión que no supere 1g hora por BIC.",
+    "cuidados": "Nunca administrar medicamento en bolo.\nSe puede administrar como máximo 1,5g de KCl hora en hipocalemias severas, pero por un tiempo no mayor a 3 horas siempre y cuando el paciente este monitorizado.\nEn caso de administrar por VVP observar frecuentemente sitio de inserción y detener frente algún malestar del paciente."
+  },
+  {
+    "category": "Electrolitos",
+    "name": "Cloruro de sodio",
+    "aliases": [],
+    "preparacion": "Las diferentes concentraciones de NaCl se pueden preparar usando las ampollas de NaCl 10% con agua bidestilada o con soluciones de NaCl al 0.9%",
+    "cuidados": "Se puede administrar por VVP o por VVC.\nConcentraciones menores a 1.5% se pueden pasar por VVP.\nConcentraciones mayores se recomienda por VVC excepto en emergencias cuando hay hipertensión intracraneana donde se debe administrar bolos de NaCl al 3% o 10%"
+  },
+  {
+    "category": "Electrolitos",
+    "name": "Sulfato de magnesio",
+    "aliases": [],
+    "preparacion": "Recomendado en S.F 0.9%\nPor VVP no mas de 1g por 20ml\nPara VVC concentración máxima \nDe 1g por 10ml\n(Recordar que ampolla al 25% \nContiene 1,25g de magnesio)",
+    "cuidados": "-Se puede administrar por VVP o VVC, en bolo, infusión intermitente o continua.\n-Bolo solo en emergencia asociada a hipomagnesemia severa en un tiempo de 1 a 5min\n-Infusión intermitente en 10 a 20 min no mas de una ampolla a la vez\n-Infusión continua de 0,1 a 1g/hr idealmente"
+  },
+  {
+    "category": "Electrolitos",
+    "name": "Gluconato de calcio",
+    "aliases": [],
+    "preparacion": "-En NaCl 0,9% y S.G 5% 1 ampolla en 50 a 100ml\n-Bolo en 20 a 50ml\n-Infusión continua o intermitente por VVP concentración máxima de 1g por 50ml\n-VVC concentración máxima de 1g en 20ml",
+    "cuidados": "-Por VVP o VVC.\n-En bolo se recomienda que se administre de manera lenta 3-5min, para evitar que una elevada concentración de Ca alcance el miocardio y pueda provocar un sincope cardiaco.\n-Pasar por vía exclusiva por riesgo de precipitar."
+  },
+  {
+    "category": "Electrolitos",
+    "name": "Fosfato monopotasico 15%",
+    "aliases": [
+      "Bifosfato de potasio al 15%"
+    ],
+    "preparacion": "En NaCl al 0,9% o S.G al 5%\nVVP 1 ampolla en 250ml\nVVC 3 ampollas en 100ml",
+    "cuidados": "Por VVP o VVC en infusión intermitente o continua, nunca en bolo.\nVVP máximo 0,5g de bifosfato de potasio hora\nVVC máximo 1g de bifosfato de potasio hora"
+  },
+  {
+    "category": "Sedoanalgesia/BNM",
+    "name": "Bromuro de rocuronio",
+    "aliases": [],
+    "solventes": "S.F 0.9%\nSG 5%\nSRL\nS.F 0.9%",
+    "volumen_dilucion": "0,5 - 2\nmg/ml",
+    "estabilidad": "24 horas a\ntemperatur\na ambiente\ny expuestos\na la luz\nambiental",
+    "tipo_administracion": "EV directa: SI\nEV intermitente:\nNO\nEV continua: SI\nIM: SI\nOtras vías: NO",
+    "reacciones_adversas": "reacciones",
+    "observaciones": "Este medicamento\nno debe mezclarse\ncon otros\nmedicamentos\nReducir la dosis en\nfunción del peso\ncorporal magro en\npacientes obesos",
+    "dosis": "5-15 mcg/kg/min"
+  },
+  {
+    "category": "Sedoanalgesia/BNM",
+    "name": "Diazepam",
+    "aliases": [],
+    "solventes": "SF 0.9%\nSG 5%",
+    "volumen_dilucion": "No es\nrecomendado\nSe puede diluir\n1mg/ml",
+    "estabilidad": "6 Hrs a\nTemperatur\na ambiente\nsi esta\ndiluido.\nProteger de\nla luz.",
+    "tipo_administracion": "EV directa: SI\nEV intermitente:\nNO\nEV continua: SI\nIM: SI\nOtras vías: V.O.,\nV.R",
+    "reacciones_adversas": "Hipotensión,\nvasodilatación\nestreñimiento,\ndiarrea, náuseas,\ncambios en la\nsalivación,\nflebitis, dolor\ncon la inyección,\napnea, asma,\ndisminución de\nla frecuencia\nrespiratoria",
+    "observaciones": "Flumazenil\ninvierte el efecto\nde\nbenzodiacepinas\nen caso de\nsobredosis, no se\nrecomienda\nInfusión\nContinua, debido\na la precipitación\nde líquidos.",
+    "dosis": "0,1 - 0,4\nmg/kg/dosis.\nDosis máxima\n20 mg/dosis"
+  },
+  {
+    "category": "Sedoanalgesia/BNM",
+    "name": "Fentanilo",
+    "aliases": [
+      "Fenta"
+    ],
+    "solventes": "SF 0.9%\nSG 5%",
+    "volumen_dilucion": "2000μg/100ml\n(2mg/100ml)",
+    "estabilidad": "Temperatura\nambiente.\n24 hrs",
+    "tipo_administracion": "EV directa: SI\nEV intermitente:\nSI\nEV continua: SI\nIM: SI\nOtras vías:\nparche\nintradermico",
+    "reacciones_adversas": "Depresión",
+    "observaciones": "La sobredosis es\nrevertida con\nNaloxona",
+    "dosis": "1.0-4.0 μg/Kg/Hr"
+  },
+  {
+    "category": "Sedoanalgesia/BNM",
+    "name": "Flumazenil",
+    "aliases": [],
+    "solventes": "SF 0.9%\nSG 5%",
+    "volumen_dilucion": "Bolo: No diluir\nIntermitente:\n0.5mg/50ml",
+    "estabilidad": "Temperatura\nambiente\nProteger de\nla luz.",
+    "tipo_administracion": "EV directa: SI\nEV intermitente:\nNO\nEV continua: SI\nIM: NO\nOtras vías: NO",
+    "reacciones_adversas": "Náuseas, vómitos,\nvértigo, ansiedad,\ndepresión\nmoderada,\nagitación,\npalpitaciones,\nbradicardia,\nasístole,\ntaquicardia, rigidez\nmuscular.\nPuede precipitar\nSíndrome de\nabstinencia a\nbenzodiacepinas\nSe pueden\npresentar síntomas\nde deprivación en\npacientes en\ntratamiento\nprolongado con\nbenzodiacepinas. En\neste caso, adm 5mg\nde Midazolam vía IV\nlenta\nReducción de sedación\ninducida por\nbenzodiacepinas:\nDosis inicial: 0.2mg\nadm c/15 Seg. Seguida\nde intervalos de 1min\npor dosis de 0.1-0.2mg\nde ser necesario.\nDosis usual: 0.3-0.6mg.\nSobredosis por\nbenzodiacepinas:\n0.2mg IV en 30seg. De\nser necesario, dosis\nadicional de 0.3mg a\nlos 30seg, a intervalos\nde 1min, dosis de\n0.5mg, hasta una dosis\ntotal de 3-5mg",
+    "observaciones": "",
+    "dosis": ""
+  },
+  {
+    "category": "Sedoanalgesia/BNM",
+    "name": "Haloperidol",
+    "aliases": [],
+    "solventes": "SF 0.9%\nSG 5%",
+    "volumen_dilucion": "Bolo: No diluir\nInfusión\nintermitente:\n5-10 mg en\n100 ml.\nInfusión\ncontinua: 50\nmg en 50 ml",
+    "estabilidad": "24 Hrs a\nTemperatura\nambiente en\nSG5%.\n8 Hrs a\nTemperatura\nAmbiente en\nSF",
+    "tipo_administracion": "IM: SI\nEV directa: SI\nEV intermitente:\nSI\nEV continua: SI",
+    "reacciones_adversas": "Reacciones\nextrapiramidales,\neuforia, letargia,\ninsomnio,\ntaquicardia,\ngalactorrea\nPuede generar\nhipotensión\npor excesiva\nsedacion.",
+    "observaciones": "Agitación y Psicosis",
+    "dosis": ""
+  },
+  {
+    "category": "Sedoanalgesia/BNM",
+    "name": "Ketamina",
+    "aliases": [],
+    "solventes": "SF 0.9%\nSG 5%",
+    "volumen_dilucion": "Bolo: 50 mg/ml\nInfusión\nintermitente:\n200 mg/100 ml\nInfusión\ncontinua: 200\nmg/50ml\nConcentración\nmáxima de\n4mg/1ml",
+    "estabilidad": "24 hrs a\ntemperatura\nambiente",
+    "tipo_administracion": "IM: SI\nEV directa: SI\nEV intermitente:\nSI\nEV continua: SI",
+    "reacciones_adversas": "Confusion,\nalucinaciones,\ndelirium, nauseas\nvómitos, cambios\nen las enzimas\nhepaticas.\nPara reducir la\nincidencia de\nreacciones al\ndespertar, se\nadministra Diazepam\nu otra benzodiacepina\nantes de la\nintervención o como\nadyuvante de la\nKetamina\n5-20\nmcg/kg/min",
+    "observaciones": "",
+    "dosis": ""
+  },
+  {
+    "category": "Sedoanalgesia/BNM",
+    "name": "Ketoprofeno",
+    "aliases": [],
+    "solventes": "SF 0.9%\nSG 5%\nSRL\nBolo: 1ml en\n10ml\nInfusión: 10ml\nen 500ml\nEn suero\nfisiológico\n24 horas.",
+    "volumen_dilucion": "EV directa: NO\nEV intermitente: SI\nEV continua: NO\nIM: SI\nOtras vías: V.O.",
+    "estabilidad": "",
+    "tipo_administracion": "edema, náuseas,",
+    "reacciones_adversas": "La administración\ndirecta (en bolo)\npuede provocar\nflebitis y dolor\nen sitio de\ninyección, es muy\nvenoirritante.\nReduce o revierte\nlos efectos de\nmuchos\nantihipertensivos\n100-300 mg/día\n20 – 30 minutos",
+    "observaciones": "",
+    "dosis": ""
+  },
+  {
+    "category": "Sedoanalgesia/BNM",
+    "name": "Ketorolaco",
+    "aliases": [],
+    "solventes": "SF 0.9%\nSG 5%\nEn 50-100 ml\nConcentración\nmáxima de 6\nmg/ml.\nEstable\npor 48\nhoras.\nProtegido\nde la luz",
+    "volumen_dilucion": "IM: SI\nEV directa: SI\nEV continua: SI\nEV intermitente: NO",
+    "estabilidad": "gastrointestinales,\ncefalea, mareos,\nvómitos, diarrea,\nnerviosismo, prurito,\nrash cutáneo, dolor\nen sitio de inyección,\nedema, hipertensión",
+    "tipo_administracion": "gastrointestinales,",
+    "reacciones_adversas": "30mg de ketorolaco\nequivalen a 12 mg\nde morfina o\nmeperidina.\nUtilizar con\nprecaución en\npacientes con daño\nrenal o falla\nhepática.",
+    "observaciones": "IM: 60 mg, en una",
+    "dosis": ""
+  },
+  {
+    "category": "Sedoanalgesia/BNM",
+    "name": "Lorazepam",
+    "aliases": [],
+    "solventes": "SF 0.9%\nSG 5%\nSRL",
+    "volumen_dilucion": "1mg/1ml",
+    "estabilidad": "Estable por\n24 hrs a\ntemperatura\nambiente",
+    "tipo_administracion": "EV directa: si\nEV intermitente:\nno\nEV continua: si\nIM: SI\nOtras vías: V.O.",
+    "reacciones_adversas": "Se puede producir\nparo cardiaco,\nhipotensión,\nbradicardia,\ncolapso\ncardiovascular,\nconfusión, disnea,\nataxia, amnesia,\nflebitis, dolor en el\nsitio de inyección,\nvisión borrosa,\ndiplopía,\ndisminución de la\nfrecuencia\nrespiratoria,\nlaringoespasmo,\ndependencia física\nen uso prolongado.",
+    "observaciones": "Ansiedad: 1-4 mg.",
+    "dosis": ""
+  },
+  {
+    "category": "Sedoanalgesia/BNM",
+    "name": "Metamizol",
+    "aliases": [],
+    "solventes": "SF 0.9\nSG 5%\nBolo: 0.5g en\n5cc\nInfusión\nintermitente:\ndiluir en 50-\n100ml\nSe protege\nde la luz en\ninfusiones\ncontinuas\nde 24 horas",
+    "volumen_dilucion": "EV directa: NO\nEV intermitente:\nSI\nEV continua: SI\nIM: SI\nOtras vías: VO,\nVR (supositorio)",
+    "estabilidad": "",
+    "tipo_administracion": "Se puede observar",
+    "reacciones_adversas": "Se puede\nadministrar la\nampolla de\nmetamizol EV vía\noral para\nmanejar el dolor\n1-3 g/ 8 Hrs",
+    "observaciones": "",
+    "dosis": ""
+  },
+  {
+    "category": "Sedoanalgesia/BNM",
+    "name": "Midazolam",
+    "aliases": [
+      "Mida"
+    ],
+    "solventes": "SF 0.9%\nSG 5%\n100mg/100ml\no\nconcentración\nmáxima de\n5mg/1ml\nDiluida:\n24 horas.",
+    "volumen_dilucion": "EV directa: SI\nEV infusión\nintermitente: NO\nEV infusión\ncontinua: SI\nIM: SI\nOtras vías: V.O.,\nendotraqueal",
+    "estabilidad": "",
+    "tipo_administracion": "disminución del",
+    "reacciones_adversas": "El antagonista es\nel Flumazenil.",
+    "observaciones": "Pre-medicación",
+    "dosis": ""
+  },
+  {
+    "category": "Sedoanalgesia/BNM",
+    "name": "Morfina",
+    "aliases": [
+      "Morfi"
+    ],
+    "solventes": "SF 0.9%\nSG 5%",
+    "volumen_dilucion": "Bolo: 2.5-\n15mg diluido\nen 5 o 10ml\nInfusión\nintermitente:\n100mg por\n100ml\n(1mg/ml).\nRango: 0.1-\n1mg/ml\nInfusión\ncontinua:\n100mg/50ml\n(2mg/ml) o en\nun rango 0.5-\n5mg/ml en\ncaso de\nconcentrar\nvolumen",
+    "estabilidad": "A\ntemperatura\nambiente\nmáximo 72\nhrs.",
+    "tipo_administracion": "EV directa: SI\nEV intermitente:\nNO\nEV continua: SI\nIM: SI\nOtras vías: S.C.",
+    "reacciones_adversas": "constipación,\nretención\nurinaria,\nsomnolencia,\nmareos,\nsedación,\nnáuseas,\nvómitos,\nsudoración,\ndisforia y euforia\n.depresión\nrespiratoria y\ndepresión\ncardiovascular\n(hipotensión).",
+    "observaciones": "precaución en\npacientes con\npancreatitis\n(causa espasmo\ndel esfínter de\nOddi). Naloxona\nes antagonista",
+    "dosis": "Las dosis y los\nintervalos de\ndosificación deben\ntitularse para el\nalivio del dolor /\nprevención. 10mg\n(rango: 5-20mg)\ncada 4Hr IM o SC, o\n2.5-15mg cada\n4Hrs IV.\nDespués de la dosis\nde carga (15mg o\nmás), adm una\ninfusión continua\nde 0.8-80mg (hasta\n150mg) por Hr"
+  },
+  {
+    "category": "Sedoanalgesia/BNM",
+    "name": "Naloxona",
+    "aliases": [],
+    "solventes": "SF 0.9%\nSG 5%",
+    "volumen_dilucion": "Bolo: 400μg\npor 1ml\nInfusión\ncontinua: 2mg\nen 50ml\n(40μg/ml) o\n2mg en 500ml",
+    "estabilidad": "Estable 24\nhoras en\nsuero\nfisiológico o\nsuero\nglucosado al\n5% a\nconcentracio\nnes de 4\nmcg/ml.\nconcentracio\nnes mayores\no iguales a\n10 mcg/ml se\ndebe utilizar\ninmediatame\nnte.",
+    "tipo_administracion": "EV directa: SI\nEV intermitente:\nNO\nEV continua: SI\nIM: SI\nOtras vías:S.C.,\nintraoseo",
+    "reacciones_adversas": "Se puede observar\nconvulsiones después de\nla administración\nde naloxona (no es muy\ncomún). Puede aparecer\ntaquicardia\nventricular o fibrilación en\npacientes con irritabilidad\nventricular\npreexistente. Además\ntaquicardia, hipotensión o\nhipertensión\narterial, aumento de la\nsudoración, náuseas,\nvómitos y temblores.\nTodos estos efectos\npodrían estar relacionados\ncon la reversión de\nlos efectos opiáceos.",
+    "observaciones": "El fármaco revierte\nlos efectos de los\nanalgésicos\nnarcóticos, por lo\ntanto se debe\nconsiderar\nadministrar\nanalgésicos no\nopioides para\nel tratamiento del\ndolor",
+    "dosis": "Contrarrestar\nsedación: 2\nmcg/kg/dosis,\nrepetir después de 2\nminutos.\nAntagonismo\nmorfina: 10\nmcg/kg/dosis (Max.\n0,4 mg)."
+  },
+  {
+    "category": "Sedoanalgesia/BNM",
+    "name": "Petidina",
+    "aliases": [],
+    "solventes": "SF 0.9%\nSG 5%",
+    "volumen_dilucion": "Infusión\nintermitente:\ndiluir en 50-\n100ml para\nobtener la\nconcentración de\n1mg/ml\nBolo: máximo 10\nmg/ml\nInfusión\ncontinua: 50 mg\npor 50 ml\n(1mg/ml)",
+    "estabilidad": "Es estable\npor 7 días a\ntemperatura\nambiente y\n14 días\nrefrigerada.",
+    "tipo_administracion": "EV directa: SI\nEV intermitente: SI\nEV continua: SI\nIM: SI\nOtras vías: S.C.",
+    "reacciones_adversas": "náuseas, vómitos,\nmareos,\npalpitación,\nbradicardia y\nprurito. Produce\nmenos constipación\ny retención\nurinaria que la\nmorfina. El cuadro\nde sobredosis se\ncaracteriza por\nexcitación,\nalucinaciones,\nconvulsiones y\nmidriasis.",
+    "observaciones": "La administración\nrápida puede\nproducir un\nincremento en el\nriesgo\nde efectos adversos,\nprincipalmente\ndepresión\nrespiratoria, apnea,\nhipotensión",
+    "dosis": "E.V: 0,5 - 1 mg/kg.\nI.M: 0,5 - 2 mg/kg.\nInfusion continua:\n5 mg/kg en 50 ml,\n1 - 4 ml/hr (0,1 -\n0,4 mg/kg/hr)."
+  },
+  {
+    "category": "Sedoanalgesia/BNM",
+    "name": "Propofol",
+    "aliases": [
+      "Prop"
+    ],
+    "solventes": "----------------",
+    "volumen_dilucion": "---------------------------",
+    "estabilidad": "--------",
+    "tipo_administracion": "EV directa: SI\nEV intermitente:\nNO\nEV continua: SI\nIM: NO\nOtras vías: NO",
+    "reacciones_adversas": "Se puede observar\nbradicardia,\nhipotensión,\nmovimientos,\nardor,\ndolor o prurito en\nel sitio de la\ninyección, apnea,\nerupciones,\nreacciones\nanafilácticas,\ncontracción\nauricular\nprematura,\nsíncope,\nhipertonía,\nparestesia,\nhipersalivación,\nmialgia, prurito,\nambliopía",
+    "observaciones": "Agitar antes de\nusar, utilizar\nvenas de calibre\ngrande\nCambiar bajadas\nde bomba cada\n24 hrs.\nNo mezclar con\nproductos\nsanguíneos ni\ncon otros\nmedicamentos\npor la misma vía\no en una mezcla.",
+    "dosis": "Sedación: 1 - 3\nmg/kg/hr (max\n4mg/kg/hr), no\nmás de 48 hr.\nCorto periodo\nde anestesia:\n2,5 – 3,5 mg/kg,\nluego 7,5 – 15\nmg/kg/hr."
+  },
+  {
+    "category": "Sedoanalgesia/BNM",
+    "name": "Succinilcolina",
+    "aliases": [],
+    "solventes": "SF 0.9%\nSG 5%",
+    "volumen_dilucion": "Bolo: no diluir\n1 - 2 mg/ml\n(infusión\ncontinua).",
+    "estabilidad": "24 Hrs\nRefrigerado",
+    "tipo_administracion": "EV directa: SI\nEV intermitente:\nNO\nEV continua: SI\n(no\nrecomendado)\nIM: SI\nOtras vías: NO",
+    "reacciones_adversas": "Arritmias,\nbradicardia,\nhipo/hipertensión,\ntaquicardia, rash,\nhiperpotasemia,\nsalivación,\nfasciculaciones\nmusculares, dolor\nmuscular\npostoperatorio,\nrabdomiólisis,\naumento de la\npresión intraocular,\napnea, depresión\nrespiratoria,\nanafilaxia",
+    "observaciones": "A 1 - 2 mg/ml en\nsuero fisiológico es\nestable por 7 días a\ntemperatura\nambiente y 4 semanas\nrefrigerado.\nSin embargo, el\nproveedor\nrecomienda no\nalmacenar más allá\nde 24 horas el\nfármaco diluido , a\ntemperatura\nambiente (por\nestabilidad\nmicrobiológica)",
+    "dosis": "Inicialmente 20\na 100mg IV.\nAlternativament\ne, 0.3 a\n1.1mg/Kg.\nLa dosis puede\nser repetida.\nSi no se puede\nacceder a la vía\nIV, administrar\n2.5mg/Kg/dosis,\nIM"
+  }
+]
